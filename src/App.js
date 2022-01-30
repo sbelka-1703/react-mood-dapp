@@ -7,15 +7,19 @@ function App() {
       <header className="App-header">
 
         <p>
-
+          <input  className="input input-lg input-primary	 px-10" placeholder="Mood"></input>
         </p>
-        <a>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-3 rounded">
+        <a className ="flex flex-col">
+          <div>
+          <button class="btn btn-primary m-3">
             Get Mood
           </button>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-3 rounded">
+          <button class="btn btn-primary m-3">
             Set Mood
           </button>
+          </div>
+          
+
         </a>
       </header>
     </div>
