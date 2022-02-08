@@ -71,7 +71,11 @@ function App() {
 
     <>
 
-      <header className='bg-gray-700 text-white flex justify-center items-center p-4  text-5xl'>Mood Dapp</header>
+      <header className='from-gray-700 to-gray-600 text-white flex justify-center items-center p-4  text-5xl bg-gradient-to-r '>
+        
+        Mood Dapp
+        
+        </header>
       <div class=" bg-gray-800 min-h-screen flex flex-col justify-center items-center font-poppins">
         <p className='text-white  p-2'>Here we can set or get the mood:</p>
 
