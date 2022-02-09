@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { ethers } from 'ethers'
 import Mood from './artifacts/contracts/Mood.sol/MoodDiary.json'
 import { data } from 'autoprefixer';
+import { Navbar } from './components/Navbar';
 
 function App() {
 
@@ -70,13 +71,11 @@ function App() {
     
 
     <>
-
-      <header className='from-gray-700 to-gray-600 text-white flex justify-center items-center p-4  text-5xl bg-gradient-to-r '>
-        
-        Mood Dapp
-        
-        </header>
+      
+      <Navbar/>
       <div class=" bg-gray-800 min-h-screen flex flex-col justify-center items-center font-poppins">
+        
+        
         <p className='text-white  p-2'>Here we can set or get the mood:</p>
 
 
