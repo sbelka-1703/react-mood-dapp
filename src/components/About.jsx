@@ -19,11 +19,12 @@ export const About = (props) => {
 
                         {/*Title*/}
                         <div className=' text-4xl font-extrabold text-white'>About</div>
-
+                          
+                          <hr></hr>
                         {/* Main text */}
-                        <p className=' leading-snug text-gray-400 font-poppins'>In this Mood Daap, a user can record their mood on the blockchain by entering their mood and pressing the set mood botton.  
+                        <p className=' leading-snug text-gray-400 font-poppins py-2'>In this Mood Daap, a user can record their mood on the blockchain by entering their mood and pressing the set mood botton.  </p>
                         
-                        The user can also retrive their recorded mood by pressing the Get Mood button. </p>
+                        <p className='leading-snug text-gray-400 font-poppins py-2'>The user can also retrive their recorded mood by pressing the <strong>get Mood</strong> button. </p>
 
                     </div>
                 </div>
