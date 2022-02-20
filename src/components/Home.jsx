@@ -3,6 +3,7 @@ import { ethers, providers } from 'ethers'
 import Mood from '../artifacts/contracts/Mood.sol/MoodDiary.json'
 import { Navbar } from '../components/Navbar';
 import Web3Modal from "web3modal";
+import Navbar2 from "./Navbar2";
 
 
 
@@ -122,8 +123,10 @@ const getProviderOrSigner = async (needSigner = false) => {
 
     <>
       
-      <Navbar
-      connectWallet = {connectWallet}/>
+      {/* <Navbar
+      connectWallet = {connectWallet}/> */}
+
+      <Navbar2/>
        
       <div class=" bg-gray-800 min-h-screen flex flex-col justify-center items-center font-poppins">
         
@@ -141,10 +144,10 @@ const getProviderOrSigner = async (needSigner = false) => {
 
         <div>
 
-          <button class="btn btn-primary m-3" onClick={fetchMood}>
+          <button className="btn btn-primary m-3" onClick={fetchMood}>
             Get Mood
           </button>
-          <button class="btn btn-primary m-3 " onClick={setMood}>
+          <button className="btn btn-primary m-3 " onClick={setMood}>
             Set Mood
           </button>
          
